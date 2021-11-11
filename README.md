@@ -1,2 +1,2 @@
 # traveland
-Travel website 
+Travel website to the Web Programming subject
