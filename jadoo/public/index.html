@@ -23,7 +23,12 @@
     <link rel="manifest" href="assets/img/favicons/manifest.json">
     <meta name="msapplication-TileImage" content="assets/img/favicons/mstile-150x150.png">
     <meta name="theme-color" content="#ffffff">
-
+    <style>
+      input {
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+      }
+    </style>
 
     <!-- ===============================================-->
     <!--    Stylesheets-->
@@ -48,8 +53,7 @@
               <li class="nav-item px-3 px-xl-4"><a class="nav-link fw-bold fs-1" aria-current="page" href="#destination">Destination</a></li>
               <li class="nav-item px-3 px-xl-4"><a class="nav-link fw-bold fs-1" aria-current="page" href="#booking">Booking</a></li>
               <li class="nav-item px-3 px-xl-4"><a class="nav-link fw-bold fs-1" aria-current="page" href="#testimonial">Testimonial</a></li>
-              <li class="nav-item px-3 px-xl-4"><a class="nav-link fw-bold fs-1" aria-current="page" href="#!">Login</a></li>
-              <li class="nav-item px-3 px-xl-4"><a class="btn btn-outline-red order-1 order-lg-0 fw-bold fs-1" href="#!">Sign Up</a></li>
+              <li class="nav-item px-3 px-xl-4"><a class="btn btn-outline-red order-1 order-lg-0 fw-bold fs-1" href="login.html">Log In / Sign Up</a></li>
               <li class="nav-item dropdown px-3 px-lg-0"> <a class="d-inline-block ps-0 py-2 pe-3 text-decoration-none dropdown-toggle fw-bold fs-1" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">EN</a>
                 <ul class="dropdown-menu dropdown-menu-end border-0 shadow-lg" style="border-radius:0.3rem;" aria-labelledby="navbarDropdown">
                   <li><a class="dropdown-item" href="#!">EN</a></li>
@@ -87,16 +91,77 @@
         </div>
       </section>
       <!--search bar-->
-     <section>
-      <div class="container-xl pt-md-1" id="search">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="input-group mb-2"> <input type="text" class="form-control input-text" placeholder="Search your next travel...">
-                    <div class="input"> <button class="btn btn-outline-warning btn-lg" type="button"><i class="fa fa-search"></i></button> </div>
-                </div>
-            </div>
-        </div>
-    </div>
+      <!--
+    <section>
+     <div class="container-xl pt-md-1" id="search">
+       <div class="row">
+           <div class="col-md-12">
+               <div class="input-group mb-2"> <input type="text" class="form-control input-text" placeholder="Search your next travel...">
+                   <div class="input"> <button class="btn btn-outline-warning btn-lg" type="button"><i class="fa fa-search"></i></button> </div>
+               </div>
+           </div>
+       </div>
+   </div>
+
+      -->
+    <section style="padding-top: 2rem;">
+    	<div class="container" style="background-color: black;border-radius: 10px;">
+	    	<div class="row">
+					<div class="col-md-12">
+						<div class="search-wrap-1 ftco-animate p-4">
+							<form action="#" class="search1">
+		        		<div class="row">
+		        			<div class="col-lg align-items-end">
+		        				<div class="form-group">
+		        					<h5 style="color: aliceblue;">
+                        <i class="fas fa-search-location"></i>
+                        Destination
+                      </h5>
+		          				<div class="form-field">
+				                <input type="text" class="form-control" placeholder="Search place">
+				              </div>
+			              </div>
+		        			</div>
+		        			<div class="col-lg align-items-end">
+		        				<div class="form-group">
+		        					<h5 style="color: aliceblue;"><i class="fas fa-plane-departure"></i> Check-in date</h5>
+		        					<div class="form-field">
+				                <input type="text" class="form-control checkin_date" placeholder="Check In Date">
+				              </div>
+			              </div>
+		        			</div>
+		        			<div class="col-lg align-items-end">
+		        				<div class="form-group">
+		        					<h5 style="color: aliceblue;"><i class="fas fa-plane-arrival"></i> Check-out date</h5>
+		        					<div class="form-field">
+				                <input type="text" class="form-control checkout_date" placeholder="Check Out Date">
+                        
+                        
+				              </div>
+			              </div>
+		        			</div>
+		        			<div class="col-lg align-items-end">
+		        				<div class="form-group">
+		        					<h5 style="color: aliceblue;"><i class="fas fa-search-dollar"></i> Price Limit</h5>
+		        					<div class="form-field">
+                        <input type="text" class="form-control checkout_date" placeholder="Price Limit">
+				              </div>
+			              </div>
+		        			</div>
+		        			<div class="col-lg align-self-end">
+		        				<div class="form-group">
+		        					<div class="form-field">
+				                <input type="submit" value="Search" class="form-control btn btn-primary">
+				              </div>
+			              </div>
+		        			</div>
+		        		</div>
+		        	</form>
+		        </div>
+					</div>
+	    	</div>
+	    </div>
+    </section>
      </section>
 
       <!-- ============================================-->
@@ -262,10 +327,7 @@
               </div>
             </div>
           </div>
-          
-          
         </div><!-- end of .container-->
-
       </section>
       <!-- <section> close ============================-->
       <!-- ============================================-->
@@ -538,8 +600,7 @@
     <!-- ===============================================-->
     <!--    End of Main Content-->
     <!-- ===============================================-->
-
-
+    
 
 
     <!-- ===============================================-->
@@ -551,7 +612,7 @@
     <script src="https://polyfill.io/v3/polyfill.min.js?features=window.scroll"></script>
     <script src="vendors/fontawesome/all.min.js"></script>
     <script src="assets/js/theme.js"></script>
-
+    
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&amp;family=Volkhov:wght@700&amp;display=swap" rel="stylesheet">
   </body>
 
