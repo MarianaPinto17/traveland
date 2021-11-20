@@ -2919,15 +2919,15 @@ textarea.form-control-lg {
 }
 
 .form-check-input:focus {
-  border-color: #f8d280;
+  border-color: #cf5b5b;
   outline: 0;
   -webkit-box-shadow: 0 0 0 0.25rem rgba(241, 165, 1, 0.25);
   box-shadow: 0 0 0 0.25rem rgba(241, 165, 1, 0.25);
 }
 
 .form-check-input:checked {
-  background-color: #F1A501;
-  border-color: #F1A501;
+  background-color: #cf5b5b;
+  border-color: #e4451d;
 }
 
 .form-check-input:checked[type="checkbox"] {
@@ -2939,8 +2939,8 @@ textarea.form-control-lg {
 }
 
 .form-check-input[type="checkbox"]:indeterminate {
-  background-color: #F1A501;
-  border-color: #F1A501;
+  background-color: #cf5b5b;
+  border-color: #cf5b5b;
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23FFFEFE' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10h8'/%3e%3c/svg%3e");
 }
 
@@ -19561,6 +19561,51 @@ iframe {
   .hero-img {
     width: 135%;
     margin-left: -4rem;
+  }
+}
+
+
+.hero-title-2 {
+  font-family: "Volkhov", "DM Serif Display", cursive;
+  font-weight: 700;
+  font-size: 2.88651rem;
+  color: #181E4B;
+  margin-bottom: 5px;
+  position: relative;
+  z-index: 1;
+}
+
+@media (min-width: 1200px) {
+  .hero-title-2 {
+    font-size: 4.62363rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .hero-title-2 {
+    font-size: 5.20158rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .hero-title-2:before {
+    top: 2.8125rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hero-title-2:before {
+    font-size: 4.62363rem;
+    top: 4.1875rem;
+    right: -0.9375rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .hero-title-2:before {
+    font-size: 5.20158rem;
+    top: 4.6875rem;
+    width: 23.125rem;
   }
 }
 

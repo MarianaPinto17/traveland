@@ -1,85 +1,143 @@
 <!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>TRAVELAND | Travel Agency</title>
-  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css'><link rel="stylesheet" href="./assets/css/style.css">
-  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css'><link rel="stylesheet" href="./assets/css/theme.css">
+	<html lang="en" >
+		<head>
+			<meta charset="UTF-8">
+			<title>TRAVELAND | Travel Agency</title>
+			<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css'><link rel="stylesheet" href="./assets/css/theme.css">
+			<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css'><link rel="stylesheet" href="./assets/css/style.css">
+		</head>
+	<body>
+	<!-- partial:index.partial.html -->
+		<main class="main" id="top">
+			<nav class="navbar navbar-expand-lg navbar-light fixed-top py-4 d-block" data-navbar-on-scroll="data-navbar-on-scroll">
+				<div class="container"><a class="navbar-brand" href="index.html"><img src="assets/img/favicons/default-monochrome-black.svg" height="62px" alt="logo" /></a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"> </span></button>
+				<div class="collapse navbar-collapse border-top border-lg-0 mt-4 mt-lg-0" id="navbarSupportedContent">
+					<ul class="navbar-nav ms-auto pt-2 pt-lg-0 font-base align-items-lg-center align-items-start">
+					<li class="nav-item px-3 px-xl-4"><a class="nav-link fw-bold fs-1" aria-current="page" href="#service">Service</a></li>
+					<li class="nav-item px-3 px-xl-4"><a class="nav-link fw-bold fs-1" aria-current="page" href="#destination">Destination</a></li>
+					<li class="nav-item px-3 px-xl-4"><a class="nav-link fw-bold fs-1" aria-current="page" href="#booking">Booking</a></li>
+					<li class="nav-item px-3 px-xl-4"><a class="nav-link fw-bold fs-1" aria-current="page" href="#testimonial">Testimonial</a></li>
+					<li class="nav-item px-3 px-xl-4"><a class="btn btn-outline-red order-1 order-lg-0 fw-bold fs-1" href="login.html">Log In / Sign Up</a></li>
+					<li class="nav-item dropdown px-3 px-lg-0"> <a class="d-inline-block ps-0 py-2 pe-3 text-decoration-none dropdown-toggle fw-bold fs-1" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">EN</a>
+						<ul class="dropdown-menu dropdown-menu-end border-0 shadow-lg" style="border-radius:0.3rem;" aria-labelledby="navbarDropdown">
+						<li><a class="dropdown-item" href="#!">EN</a></li>
+						<li><a class="dropdown-item" href="#!">PT</a></li>
+						</ul>
+					</li>
+					</ul>
+				</div>
+				</div>
+			</nav>
+			<section style="padding-top: 30rem;">
+				<div class="containerform" id="containerform">
+					<div class="form-container sign-up-container">
+						<form action="#">
+							<h1 class="hero-title-2" style="font-size:55px;">Create Account</h1>
+							<div class="social-container">
+								<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+								<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+								<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+							</div>
+							<h5>or use your email for registration</h5>
+							<input type="text" placeholder="Name" />
+							<input type="email" placeholder="Email" />
+							<input type="password" placeholder="Password"/>
+							<div>
+								<input class="form-check-input" type="checkbox" id="terms" name="termscond" value="yes"><label for="termscond" style="padding: 5px;"> I agree with the terms and conditions.</label>
+							</div>
+							<button style="border-radius: 10px; color:black; font-size: 15px;">Sign Up</button>
+						</form>
+					</div>
+					<div class="form-container sign-in-container">
+						<form action="#">
+							<h1 class="hero-title-2" style="font-size:55px;">Sign in</h1>
+							<div class="social-container">
+								<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+								<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+								<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+							</div>
+							<h5>or use your account</h5>
+							<input type="email" placeholder="Email" />
+							<input type="password" placeholder="Password" />
+							<a href="#" style="font-size: medium;">Forgot your password?</a>
+							<button style="border-radius: 10px; color:black; font-size: 15px;">Sign In</button>
+						</form>
+					</div>
+					<div class="overlay-container">
+						<div class="overlay">
+							<div class="overlay-panel overlay-left">
+								<h1 class="hero-title-2" style="font-size: 55px;">Welcome Back!</h1>
+								<p style="font-size:20px; padding: 5px;">To keep connected with us please login with your personal info</p>
+								<button class="ghost" id="signIn"  style="border-radius: 10px; font-size: 15px;">Sign In</button>
+							</div>
+							<div class="overlay-panel overlay-right">
+								<h1 class="hero-title-2" style="font-size: 55px;" >Hello, Friend!</h1>
+								<p style="font-size:20px; padding: 5px;">Enter your personal details and start journey with us</p>
+								<button class="ghost" id="signUp"  style="border-radius: 10px; font-size: 15px;">Sign Up</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- ============================================-->
+			<!-- <section> begin ============================-->
+			<section class="pb-0 pb-lg-4">
+				<div class="container">
+				<div class="row">
+					<div class="col-lg-3 col-md-7 col-12 mb-4 mb-md-6 mb-lg-0 order-0"> <img class="mb-4" src="assets/img/favicons/default-monochrome.svg" width="250" alt="TRAVELAND" />
+					</div>
+					<div class="col-lg-2 col-md-4 mb-4 mb-lg-0 order-lg-1 order-md-2">
+					<h4 class="footer-heading-color fw-bold font-sans-serif mb-3 mb-lg-4">Company</h4>
+					<ul class="list-unstyled mb-0">
+						<li class="mb-2"><a class="link-900 fs-1 fw-medium text-decoration-none" href="about.html">About</a></li>
+					</ul>
+					</div>
+					<div class="col-lg-2 col-md-4 mb-4 mb-lg-0 order-lg-2 order-md-3">
+					<h4 class="footer-heading-color fw-bold font-sans-serif mb-3 mb-lg-4">Contact</h4>
+					<ul class="list-unstyled mb-0">
+						<li class="mb-2"><a class="link-900 fs-1 fw-medium text-decoration-none" href="#!">Help/FAQ</a></li>
+					</ul>
+					</div>
+					<div class="col-lg-2 col-md-4 mb-4 mb-lg-0 order-lg-3 order-md-4">
+					<h4 class="footer-heading-color fw-bold font-sans-serif mb-3 mb-lg-4">More</h4>
+					<ul class="list-unstyled mb-0">
+						<li class="mb-2"><a class="link-900 fs-1 fw-medium text-decoration-none" href="#!">Airlinefees</a></li>
+					</ul>
+					</div>
+					<div class="col-lg-3 col-md-5 col-12 mb-4 mb-md-6 mb-lg-0 order-lg-4 order-md-1">
+					<div class="icon-group mb-4"> <a class="text-decoration-none icon-item shadow-social" id="facebook" href="https://www.facebook.com"><i class="fab fa-facebook-f"> </i></a><a class="text-decoration-none icon-item shadow-social" id="instagram" href="https://www.instagram.com"><i class="fab fa-instagram"> </i></a><a class="text-decoration-none icon-item shadow-social" id="twitter" href="https://www.twitter.com"><i class="fab fa-twitter"> </i></a></div>
+					</div>
+				</div>
+				</div><!-- end of .container-->
+		
+			</section>
+			<!-- <section> close ============================-->
+			<!-- ============================================-->
+		
+		
+			<div class="py-5 text-center">
+				<p class="mb-0 text-secondary fs--1 fw-medium">All rights reserved@traveland.co </p>
+			</div>
+		</main>
+			<!-- ===============================================-->
+			<!--    End of Main Content-->
+			<!-- ===============================================-->
 
-</head>
-<body>
-<!-- partial:index.partial.html -->
-<main class="main" id="top">
-	<nav class="navbar navbar-expand-lg navbar-light fixed-top py-4 d-block" data-navbar-on-scroll="data-navbar-on-scroll">
-		<div class="container"><a class="navbar-brand" href="index.html"><img src="assets/img/favicons/default-monochrome-black.svg" height="62px" alt="logo" /></a>
-		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"> </span></button>
-		  <div class="collapse navbar-collapse border-top border-lg-0 mt-4 mt-lg-0" id="navbarSupportedContent">
-			<ul class="navbar-nav ms-auto pt-2 pt-lg-0 font-base align-items-lg-center align-items-start">
-			  <li class="nav-item px-3 px-xl-4"><a class="nav-link fw-bold fs-1" aria-current="page" href="#service">Service</a></li>
-			  <li class="nav-item px-3 px-xl-4"><a class="nav-link fw-bold fs-1" aria-current="page" href="#destination">Destination</a></li>
-			  <li class="nav-item px-3 px-xl-4"><a class="nav-link fw-bold fs-1" aria-current="page" href="#booking">Booking</a></li>
-			  <li class="nav-item px-3 px-xl-4"><a class="nav-link fw-bold fs-1" aria-current="page" href="#testimonial">Testimonial</a></li>
-			  <li class="nav-item px-3 px-xl-4"><a class="btn btn-outline-red order-1 order-lg-0 fw-bold fs-1" href="login.html">Log In / Sign Up</a></li>
-			  <li class="nav-item dropdown px-3 px-lg-0"> <a class="d-inline-block ps-0 py-2 pe-3 text-decoration-none dropdown-toggle fw-bold fs-1" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">EN</a>
-				<ul class="dropdown-menu dropdown-menu-end border-0 shadow-lg" style="border-radius:0.3rem;" aria-labelledby="navbarDropdown">
-				  <li><a class="dropdown-item" href="#!">EN</a></li>
-				  <li><a class="dropdown-item" href="#!">PT</a></li>
-				</ul>
-			  </li>
-			</ul>
-		  </div>
-		</div>
-	</nav>	
-</main>
 
-<div class="containerform" id="containerform">
-	<div class="form-container sign-up-container">
-		<form action="#">
-			<h1>Create Account</h1>
-			<div class="social-container">
-				<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
-				<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
-				<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
-			</div>
-			<span>or use your email for registration</span>
-			<input type="text" placeholder="Name" />
-			<input type="email" placeholder="Email" />
-			<input type="password" placeholder="Password" />
-			<button>Sign Up</button>
-		</form>
-	</div>
-	<div class="form-container sign-in-container">
-		<form action="#">
-			<h1>Sign in</h1>
-			<div class="social-container">
-				<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
-				<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
-				<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
-			</div>
-			<span>or use your account</span>
-			<input type="email" placeholder="Email" />
-			<input type="password" placeholder="Password" />
-			<a href="#">Forgot your password?</a>
-			<button>Sign In</button>
-		</form>
-	</div>
-	<div class="overlay-container">
-		<div class="overlay">
-			<div class="overlay-panel overlay-left">
-				<h1>Welcome Back!</h1>
-				<p>To keep connected with us please login with your personal info</p>
-				<button class="ghost" id="signIn">Sign In</button>
-			</div>
-			<div class="overlay-panel overlay-right">
-				<h1>Hello, Friend!</h1>
-				<p>Enter your personal details and start journey with us</p>
-				<button class="ghost" id="signUp">Sign Up</button>
-			</div>
-		</div>
-	</div>
-</div>
-<!-- partial -->
-  <script  src="./assets/js/script.js"></script>
+		<!-- ===============================================-->
+		<!--    JavaScripts-->
+		<!-- ===============================================-->
+		<script  src="./assets/js/script.js"></script>
+		<script src="vendors/@popperjs/popper.min.js"></script>
+		<script src="vendors/bootstrap/bootstrap.min.js"></script>
+		<script src="vendors/is/is.min.js"></script>
+		<script src="https://polyfill.io/v3/polyfill.min.js?features=window.scroll"></script>
+		<script src="vendors/fontawesome/all.min.js"></script>
+		<script src="assets/js/theme.js"></script>
+		
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&amp;family=Volkhov:wght@700&amp;display=swap" rel="stylesheet">
 
-</body>
+
+	</body>
 </html>
