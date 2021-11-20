@@ -2458,15 +2458,15 @@ progress {
 }
 
 .table-info {
-  --bs-table-bg: #cce0e6;
-  --bs-table-striped-bg: #c7dadf;
-  --bs-table-striped-color: #616161;
-  --bs-table-active-bg: #c1d3d9;
+  --bs-table-bg: #f83a0a;
+  --bs-table-striped-bg: #e6b9b3;
+  --bs-table-striped-color: #d19999;
+  --bs-table-active-bg: #db1313;
   --bs-table-active-color: #616161;
-  --bs-table-hover-bg: #c4d6dc;
-  --bs-table-hover-color: #616161;
-  color: #616161;
-  border-color: #c1d3d9;
+  --bs-table-hover-bg: #d41e1e;
+  --bs-table-hover-color: #e01818;
+  color: #181313;
+  border-color: #d61919;
 }
 
 .table-warning {
