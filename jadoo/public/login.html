@@ -14,25 +14,30 @@
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"> </span></button>
 				<div class="collapse navbar-collapse border-top border-lg-0 mt-4 mt-lg-0" id="navbarSupportedContent">
 					<ul class="navbar-nav ms-auto pt-2 pt-lg-0 font-base align-items-lg-center align-items-start">
-					<li class="nav-item px-3 px-xl-4"><a class="nav-link fw-bold fs-1" aria-current="page" href="#service">Service</a></li>
-					<li class="nav-item px-3 px-xl-4"><a class="nav-link fw-bold fs-1" aria-current="page" href="#destination">Destination</a></li>
-					<li class="nav-item px-3 px-xl-4"><a class="nav-link fw-bold fs-1" aria-current="page" href="#booking">Booking</a></li>
-					<li class="nav-item px-3 px-xl-4"><a class="nav-link fw-bold fs-1" aria-current="page" href="#testimonial">Testimonial</a></li>
-					<li class="nav-item px-3 px-xl-4"><a class="btn btn-outline-red order-1 order-lg-0 fw-bold fs-1" href="login.html">Log In / Sign Up</a></li>
-					<li class="nav-item dropdown px-3 px-lg-0"> <a class="d-inline-block ps-0 py-2 pe-3 text-decoration-none dropdown-toggle fw-bold fs-1" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">EN</a>
+					<li class="nav-item px-3 px-xl-4"><a class="nav-link fw-bold fs-1" aria-current="page" href="index.html#service">Service</a></li>
+					<li class="nav-item dropdown px-3 px-lg-0"> <a class="d-inline-block ps-0 py-2 pe-3 text-decoration-none dropdown-toggle fw-bold fs-1" href="#destination" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Destination</a>
 						<ul class="dropdown-menu dropdown-menu-end border-0 shadow-lg" style="border-radius:0.3rem;" aria-labelledby="navbarDropdown">
-						<li><a class="dropdown-item" href="#!">EN</a></li>
-						<li><a class="dropdown-item" href="#!">PT</a></li>
+						  <li><a class="dropdown-item" href="bookingbali.html">Bali</a></li>
+						  <li><a class="dropdown-item" href="bookingdubai.html">Dubai</a></li>
+						  <li><a class="dropdown-item" href="bookinggreece.html">Greece</a></li>
+						  <li><a class="dropdown-item" href="bookingjapan.html">Japan</a></li>
+						  <li><a class="dropdown-item" href="bookinglondon.html">London</a></li>
+						  <li><a class="dropdown-item" href="bookingny.html">New York</a></li>
+						  <li><a class="dropdown-item" href="bookingparis.html">Paris</a></li>
+						  <li><a class="dropdown-item" href="bookingrome.html">Rome</a></li>
 						</ul>
-					</li>
+					  </li>
+					<li class="nav-item px-3 px-xl-4"><a class="nav-link fw-bold fs-1" aria-current="page" href="booking.html">Booking</a></li>
+					<li class="nav-item px-3 px-xl-4"><a class="nav-link fw-bold fs-1" aria-current="page" href="index.html#testimonial">Testimonial</a></li>
+					<li class="nav-item px-3 px-xl-4"><a class="btn btn-outline-red order-1 order-lg-0 fw-bold fs-1" href="login.html">Sign In / Sign Up</a></li>
 					</ul>
 				</div>
 				</div>
 			</nav>
-			<section style="padding-top: 30rem;">
+			<section style="padding-top: 35rem;">
 				<div class="containerform" id="containerform">
 					<div class="form-container sign-up-container">
-						<form action="#">
+						<form action="login.html">
 							<h1 class="hero-title-2" style="font-size:55px;">Create Account</h1>
 							<div class="social-container">
 								<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
@@ -50,17 +55,17 @@
 						</form>
 					</div>
 					<div class="form-container sign-in-container">
-						<form action="#">
+						<form action="index.html">
 							<h1 class="hero-title-2" style="font-size:55px;">Sign in</h1>
 							<div class="social-container">
-								<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
-								<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
-								<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+								<a href="index.html" class="social"><i class="fab fa-facebook-f"></i></a>
+								<a href="index.html" class="social"><i class="fab fa-google-plus-g"></i></a>
+								<a href="index.html" class="social"><i class="fab fa-linkedin-in"></i></a>
 							</div>
 							<h5>or use your account</h5>
 							<input type="email" placeholder="Email" />
 							<input type="password" placeholder="Password" />
-							<a href="#" style="font-size: medium;">Forgot your password?</a>
+							<a href="#!" style="font-size: medium;" class="mt fs-lg" role="link" data-bs-toggle="modal" data-bs-target="#popupsubs">Forgot your password?</a>
 							<button style="border-radius: 10px; color:black; font-size: 15px;">Sign In</button>
 						</form>
 					</div>
@@ -78,6 +83,21 @@
 							</div>
 						</div>
 					</div>
+					<div class="modal fade" id="popupsubs" tabindex="-1" aria-labelledby="popup" aria-hidden="true">
+						<div class="modal-dialog modal-dialog-centered modal-lg">
+						  <div class="modal-content" style="background-image: url(/jadoo/public/assets/img/shapes/cities.png); background-size: 520px;">
+							<div class="row" >
+								<form action="login.html" id="fyp">
+									<h1 class="hero-title-2" style="font-size:40px;">Forgot your password?</h1>
+									<input type="email" placeholder="Email" />
+									<input type="password" placeholder="New Password" />
+									<input type="password" placeholder="Confirm New Password" />
+									<button style="border-radius: 10px; color:black; font-size: 15px;">Continue</button>
+								</form>
+							</div>
+						  </div>
+						</div>
+					  </div>
 				</div>
 			</section>
 			<!-- ============================================-->
@@ -129,7 +149,7 @@
 		<!-- ===============================================-->
 		<!--    JavaScripts-->
 		<!-- ===============================================-->
-		<script  src="./assets/js/script.js"></script>
+		<script src="./assets/js/script.js"></script>
 		<script src="vendors/@popperjs/popper.min.js"></script>
 		<script src="vendors/bootstrap/bootstrap.min.js"></script>
 		<script src="vendors/is/is.min.js"></script>
