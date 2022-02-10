@@ -7,7 +7,9 @@ export default class extends Abstractview{
     }
 
     async getHtml() {
-        return `    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css'><link rel="stylesheet" href="./assets/css/theme.css">
+        return `    
+        
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css'><link rel="stylesheet" href="./assets/css/theme.css">
         <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css'><link rel="stylesheet" href="./assets/css/style.css">
          <section style="padding-top: 35rem;">
         <div class="containerform" id="containerform">
@@ -75,8 +77,11 @@ export default class extends Abstractview{
               </div>
         </div>
     </section>
-    <script src="./assets/js/script.js"></script>
+    
     <script src="assets/js/theme.js"></script>
+    <script src="assets/js/script2.js"></script>
+    <script src="assets/js/script.js"></script>
+
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&amp;family=Volkhov:wght@700&amp;display=swap" rel="stylesheet">
     `;
 }

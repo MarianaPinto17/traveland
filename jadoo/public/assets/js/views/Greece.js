@@ -181,10 +181,7 @@ export default class extends Abstractview{
                     <span class="icon-indicator"> 
                       <i class="fas fa-shuttle-van" style="width: 20px;"></i>
                     </span>
-                    <h4 class="text-secondary fw-medium" style="text-align: left; margin-left: 30px;"> Transportation between both airport and hotel</h4>
-                  </div>
-                  <div class="icon-group mb-2"> 
-                    <span class="icon-indicator"> 
+                    <h4 class="text-secoAVELAND | Travel Agencydicator"> 
                       <i class="fas fa-star" style="width: 20px;"></i>
                     </span>
                     <h4 class="text-secondary fw-medium" style="text-align: left; margin-left: 30px;"> 2 or 3 stars hotels </h4>

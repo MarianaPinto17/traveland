@@ -19,15 +19,7 @@ export default class extends Abstractview{
               <h4 class="hero-title-smaller">It's almost time to get carried away</h4>
               <h1 class="hero-title">Travel with us</h1>
               <p class="mb-4 fw-medium">Every traveler is unique, and your vacation should be as well.<br class="d-none d-xl-block" /></p>
-              <div class="text-center text-md-start"> <a class="btn btn-primary btn-lg me-md-4 mb-3 mb-md-0 border-black border-3 primary-btn-shadow" href="contact.html" role="button">Contact</a>
-                <div class="w-100 d-block d-md-none"></div><a href="#!" role="button" data-bs-toggle="modal" data-bs-target="#popupVideo"><span class="btn btn-danger round-btn-lg rounded-circle me-3 danger-btn-shadow"> <img src="assets/img/icons/play.png" width="55" alt="paly"/></span></a><span class="fw-medium">Sneak peek</span>
-                <div class="modal fade" id="popupVideo" tabindex="-1" aria-labelledby="popupVideo" aria-hidden="true">
-                  <div class="modal-dialog modal-dialog-centered modal-lg">
-                    <div class="modal-content">
-                      <iframe class="rounded" style="width:100%;max-height:500px;" height="500px" src="https://www.youtube.com/embed/W5f2H1tYPHo" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
-                    </div>
-                  </div>
-                </div>
+              <div class="text-center text-md-start"> <a class="btn btn-primary btn-lg me-md-4 mb-3 mb-md-0 border-black border-3 primary-btn-shadow" href="contact.html" role="button" data-link>Contact</a>
               </div>
             </div>
           </div>
@@ -94,7 +86,7 @@ export default class extends Abstractview{
 		        			<div class="col-lg align-self-end">
 		        				<div class="form-group">
 		        					<div class="form-field">
-				                <a class="form-control btn btn-dark" style="border-radius: 10px; font-size: 18px;" href="booking.html">Search</a>
+				                <a class="form-control btn btn-dark" style="border-radius: 10px; font-size: 18px;" href="booking.html" data-link>Search</a>
 				              </div>
 			              </div>
 		        			</div>
@@ -185,7 +177,7 @@ export default class extends Abstractview{
                     <div class="card overflow-hidden shadow"> <img class="card-img-top" src="assets/img/dest/paris.jpg" alt="Paris, France" />
                       <div class="card-body py-4 px-3">
                         <div class="d-flex flex-column flex-lg-row justify-content-between mb-3">
-                          <h4 class="text-secondary fw-medium"><a class="link-900 text-decoration-none stretched-link" href="bookingparis.html">Paris, France</a></h4><span class="fs-1 fw-medium">$3,42k</span>
+                          <h4 class="text-secondary fw-medium"><a class="link-900 text-decoration-none stretched-link" href="bookingparis.html" data-link>Paris, France</a></h4><span class="fs-1 fw-medium">$3,42k</span>
                         </div>
                         <div class="d-flex align-items-center"> <img src="assets/img/dest/navigation.svg" style="margin-right: 14px" width="20" alt="navigation" /><span class="fs-0 fw-medium">10 Days Trip</span></div>
                       </div>
@@ -195,7 +187,7 @@ export default class extends Abstractview{
                     <div class="card overflow-hidden shadow"> <img class="card-img-top" src="assets/img/dest/london.jpg" alt="London, UK" />
                       <div class="card-body py-4 px-3">
                         <div class="d-flex flex-column flex-lg-row justify-content-between mb-3">
-                          <h4 class="text-secondary fw-medium"><a class="link-900 text-decoration-none stretched-link" href="bookinglondon.html">London, UK</a></h4><span class="fs-1 fw-medium">$2.2k</span>
+                          <h4 class="text-secondary fw-medium"><a class="link-900 text-decoration-none stretched-link" href="bookinglondon.html" data-link>London, UK</a></h4><span class="fs-1 fw-medium">$2.2k</span>
                         </div>
                         <div class="d-flex align-items-center"> <img src="assets/img/dest/navigation.svg" style="margin-right: 14px" width="20" alt="navigation" /><span class="fs-0 fw-medium">7 Days Trip</span></div>
                       </div>
@@ -205,7 +197,7 @@ export default class extends Abstractview{
                     <div class="card overflow-hidden shadow"> <img class="card-img-top" src="assets/img/dest/japao.jpg" alt="Tokyo, Japan" />
                       <div class="card-body py-4 px-3">
                         <div class="d-flex flex-column flex-lg-row justify-content-between mb-3">
-                          <h4 class="text-secondary fw-medium"><a class="link-900 text-decoration-none stretched-link" href="bookingjapan.html">Tokyo, Japan</a></h4><span class="fs-1 fw-medium">$15k</span>
+                          <h4 class="text-secondary fw-medium"><a class="link-900 text-decoration-none stretched-link" href="bookingjapan.html" data-link>Tokyo, Japan</a></h4><span class="fs-1 fw-medium">$15k</span>
                         </div>
                         <div class="d-flex align-items-center"> <img src="assets/img/dest/navigation.svg" style="margin-right: 14px" width="20" alt="navigation" /><span class="fs-0 fw-medium">15 Days Trip</span></div>
                       </div>
@@ -215,7 +207,7 @@ export default class extends Abstractview{
                     <div class="card overflow-hidden shadow"> <img class="card-img-top" src="assets/img/dest/ny.jpg" alt="New York" />
                       <div class="card-body py-4 px-3">
                         <div class="d-flex flex-column flex-lg-row justify-content-between mb-3">
-                          <h4 class="text-secondary fw-medium"><a class="link-900 text-decoration-none stretched-link" href="bookingny.html">New York, USA</a></h4><span class="fs-1 fw-medium">$10k</span>
+                          <h4 class="text-secondary fw-medium"><a class="link-900 text-decoration-none stretched-link" href="bookingny.html" data-link>New York, USA</a></h4><span class="fs-1 fw-medium">$10k</span>
                         </div>
                         <div class="d-flex align-items-center"> <img src="assets/img/dest/navigation.svg" style="margin-right: 14px" width="20" alt="navigation" /><span class="fs-0 fw-medium">10 Days Trip</span></div>
                       </div>
@@ -230,7 +222,7 @@ export default class extends Abstractview{
                     <div class="card overflow-hidden shadow"> <img class="card-img-top" src="assets/img/dest/bali3.jpg" alt="Sanur, Bali" />
                       <div class="card-body py-4 px-3">
                         <div class="d-flex flex-column flex-lg-row justify-content-between mb-3">
-                          <h4 class="text-secondary fw-medium"><a class="link-900 text-decoration-none stretched-link" href="bookingbali.html">Sanur, Bali</a></h4><span class="fs-1 fw-medium">$14k</span>
+                          <h4 class="text-secondary fw-medium"><a class="link-900 text-decoration-none stretched-link" href="bookingbali.html" data-link>Sanur, Bali</a></h4><span class="fs-1 fw-medium">$14k</span>
                         </div>
                         <div class="d-flex align-items-center"> <img src="assets/img/dest/navigation.svg" style="margin-right: 14px" width="20" alt="navigation" /><span class="fs-0 fw-medium">15 Days Trip</span></div>
                       </div>
@@ -240,7 +232,7 @@ export default class extends Abstractview{
                     <div class="card overflow-hidden shadow"> <img class="card-img-top" src="assets/img/dest/rome3.jpg" alt="Rome, Italy" />
                       <div class="card-body py-4 px-3">
                         <div class="d-flex flex-column flex-lg-row justify-content-between mb-3">
-                          <h4 class="text-secondary fw-medium"><a class="link-900 text-decoration-none stretched-link" href="bookingrome.html">Rome, Italy</a></h4><span class="fs-1 fw-medium">$5.2k</span>
+                          <h4 class="text-secondary fw-medium"><a class="link-900 text-decoration-none stretched-link" href="bookingrome.html" data-link>Rome, Italy</a></h4><span class="fs-1 fw-medium">$5.2k</span>
                         </div>
                         <div class="d-flex align-items-center"> <img src="assets/img/dest/navigation.svg" style="margin-right: 14px" width="20" alt="navigation" /><span class="fs-0 fw-medium">10 Days Trip</span></div>
                       </div>
@@ -250,7 +242,7 @@ export default class extends Abstractview{
                     <div class="card overflow-hidden shadow"> <img class="card-img-top" src="assets/img/dest/greece2.jpg" alt="Santorini, Greece" />
                       <div class="card-body py-4 px-3">
                         <div class="d-flex flex-column flex-lg-row justify-content-between mb-3">
-                          <h4 class="text-secondary fw-medium"><a class="link-900 text-decoration-none stretched-link" href="bookinggreece.html">Santorini, Greece</a></h4><span class="fs-1 fw-medium">$7.3k</span>
+                          <h4 class="text-secondary fw-medium"><a class="link-900 text-decoration-none stretched-link" href="bookinggreece.html" data-link>Santorini, Greece</a></h4><span class="fs-1 fw-medium">$7.3k</span>
                         </div>
                         <div class="d-flex align-items-center"> <img src="assets/img/dest/navigation.svg" style="margin-right: 14px" width="20" alt="navigation" /><span class="fs-0 fw-medium">6 Days Trip</span></div>
                       </div>
@@ -260,7 +252,7 @@ export default class extends Abstractview{
                     <div class="card overflow-hidden shadow"> <img class="card-img-top" src="assets/img/dest/dubai.jpg" alt="Dubai, UAE<" />
                       <div class="card-body py-4 px-3">
                         <div class="d-flex flex-column flex-lg-row justify-content-between mb-3">
-                          <h4 class="text-secondary fw-medium"><a class="link-900 text-decoration-none stretched-link" href="bookingdubai.html">Dubai, UAE</a></h4><span class="fs-1 fw-medium">$15k</span>
+                          <h4 class="text-secondary fw-medium"><a class="link-900 text-decoration-none stretched-link" href="bookingdubai.html" data-link>Dubai, UAE</a></h4><span class="fs-1 fw-medium">$15k</span>
                         </div>
                         <div class="d-flex align-items-center"> <img src="assets/img/dest/navigation.svg" style="margin-right: 14px" width="20" alt="navigation" /><span class="fs-0 fw-medium">10 Days Trip</span></div>
                       </div>

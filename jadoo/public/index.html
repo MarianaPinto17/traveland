@@ -32,7 +32,9 @@
     <!-- ===============================================-->
     <!--    Stylesheets-->
     <!-- ===============================================-->
-    <link href="assets/css/theme.css" rel="stylesheet" />
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css'><link rel="stylesheet" href="./assets/css/theme.css">    
+    <!--<link href="assets/css/style.css" rel="stylesheet" />-->
 
   </head>
 
@@ -45,31 +47,23 @@
     <main class="main" id="top">
       <nav class="navbar navbar-expand-lg navbar-light fixed-top py-5 d-block" data-navbar-on-scroll="data-navbar-on-scroll">
         <div class="container"><a class="navbar-brand" href="index.html" data-link><img src="assets/img/favicons/default-monochrome-black.svg" height="62px" alt="logo" /></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"> </span></button>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" data-link><span class="navbar-toggler-icon"> </span></button>
           <div class="collapse navbar-collapse border-top border-lg-0 mt-4 mt-lg-0" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto pt-2 pt-lg-0 font-base align-items-lg-center align-items-start">
               <li class="nav-item px-3 px-xl-4"><a class="nav-link fw-bold fs-1" aria-current="page" href="index.html#service">Service</a></li>
-              <li class="nav-item dropdown px-3 px-lg-0"> <a class="d-inline-block ps-0 py-2 pe-3 text-decoration-none dropdown-toggle fw-bold fs-1" href="index.html#destination" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Destination</a>
-                <ul class="dropdown-menu dropdown-menu-end border-0 shadow-lg" style="border-radius:0.3rem;" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="bookingbali.html">Bali</a></li>
-                  <li><a class="dropdown-item" href="bookingdubai.html">Dubai</a></li>
-                  <li><a class="dropdown-item" href="bookinggreece.html">Greece</a></li>
-                  <li><a class="dropdown-item" href="bookingjapan.html">Japan</a></li>
-                  <li><a class="dropdown-item" href="bookinglondon.html">London</a></li>
-                  <li><a class="dropdown-item" href="bookingny.html">New York</a></li>
-                  <li><a class="dropdown-item" href="bookingparis.html">Paris</a></li>
-                  <li><a class="dropdown-item" href="bookingrome.html">Rome</a></li>
-                </ul>
-              </li>
+              <li class="nav-item px-3 px-xl-4"><a class="nav-link fw-bold fs-1" aria-current="page" href="index.html#destination">Destination</a></li>
               <li class="nav-item px-3 px-xl-4"><a class="nav-link fw-bold fs-1" aria-current="page" href="booking.html" data-link>Booking</a></li>
               <li class="nav-item px-3 px-xl-4"><a class="nav-link fw-bold fs-1" aria-current="page" href="index.html#testimonial">Testimonial</a></li>
               <li class="nav-item px-3 px-xl-4"><a class="btn btn-outline-red order-1 order-lg-0 fw-bold fs-1" href="login.html" data-link>Sign In / Sign Up</a></li>
           </div>
         </div>
       </nav>
-      <div id ="app"></div>
 
+      <!-- Aqui entra o conteúdo que é diferente de cada página-->
+      <div id ="app">
 
+      </div>
+  
       <!-- ============================================-->
       <!-- <section> begin ============================-->
       <section class="pb-0 pb-lg-4">
@@ -81,19 +75,19 @@
             <div class="col-lg-2 col-md-4 mb-4 mb-lg-0 order-lg-1 order-md-2">
               <h4 class="footer-heading-color fw-bold font-sans-serif mb-3 mb-lg-4">Company</h4>
               <ul class="list-unstyled mb-0">
-                <li class="mb-2"><a class="link-900 fs-1 fw-medium text-decoration-none" href="about.html">About</a></li>
+                <li class="mb-2"><a class="link-900 fs-1 fw-medium text-decoration-none" href="about.html" data-link>About</a></li>
               </ul>
             </div>
             <div class="col-lg-2 col-md-4 mb-4 mb-lg-0 order-lg-2 order-md-3">
               <h4 class="footer-heading-color fw-bold font-sans-serif mb-3 mb-lg-4">Contact</h4>
               <ul class="list-unstyled mb-0">
-                <li class="mb-2"><a class="link-900 fs-1 fw-medium text-decoration-none" href="contact.html">Contact Us</a></li>
+                <li class="mb-2"><a class="link-900 fs-1 fw-medium text-decoration-none" href="contact.html" data-link>Contact Us</a></li>
               </ul>
             </div>
             <div class="col-lg-2 col-md-4 mb-4 mb-lg-0 order-lg-3 order-md-4">
               <h4 class="footer-heading-color fw-bold font-sans-serif mb-3 mb-lg-4">More</h4>
               <ul class="list-unstyled mb-0">
-                <li class="mb-2"><a class="link-900 fs-1 fw-medium text-decoration-none" href="booking.html">Destinations</a></li>
+                <li class="mb-2"><a class="link-900 fs-1 fw-medium text-decoration-none" href="booking.html" data-link>Destinations</a></li>
               </ul>
             </div>
             <div class="col-lg-3 col-md-5 col-12 mb-4 mb-md-6 mb-lg-0 order-lg-4 order-md-1">
@@ -122,12 +116,16 @@
     <!-- ===============================================-->
   
     <script src="vendors/@popperjs/popper.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/script2.js"></script>
+    <script src="assets/js/theme.js"></script>
     <script src="vendors/bootstrap/bootstrap.min.js"></script>
     <script src="vendors/is/is.min.js"></script>
     <script src="https://polyfill.io/v3/polyfill.min.js?features=window.scroll"></script>
     <script src="vendors/fontawesome/all.min.js"></script>
-    <script src="assets/js/theme.js"></script>
+    <script src="/assets/js/theme.js"></script>
     <script type="module" src="assets/js/main.js"></script>
+    <script src="assets/js/views/information.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&amp;family=Volkhov:wght@700&amp;display=swap" rel="stylesheet">
   </body>
 

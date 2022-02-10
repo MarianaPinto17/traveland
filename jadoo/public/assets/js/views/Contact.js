@@ -50,33 +50,14 @@ export default class extends Abstractview{
                 <div class="row align-items-center">
                   <div class="col-md-7 col-lg-5 text-md-start text-left" >
                     <table class="table-info table-sm table-bordered text-center" style="margin-left: 80px; margin-top: -150px;">
-                      <tr>
-                        <th style="background-color: #ff3300;color: aliceblue;">
-                          <img class="input-box-icon" src="assets/img/shapes/email.png" width="30px" alt="mail" style=" margin-left: -2px;"/>
-                          <span style="padding: 10px;">Email </span>
-                        </th>
-                        <td>
-                          geral@traveland.com
-                        </td>
-                      </tr> 
-                      <tr>
-                        <th style="background-color: #ff3300; color: aliceblue;">
-                          <img class="input-box-icon" src="assets/img/shapes/phone.png" width="30px" alt="mail" style="color:black;  margin-left:2px;"/>
-                          <span style="padding: 10px;">Phone </span>
-                        </th>
-                        <td>
-                          +351123456789
-                        </td>
-                      </tr>
-                      <tr>
-                        <th style="background-color: #ff3300; color: aliceblue;">
-                          <img class="input-box-icon" src="assets/img/shapes/address.png" width="35px" alt="mail" style="color:black; margin-left: 20px;"/>
-                          <span style="padding: 10px;">Address </span>
-                        </th>
-                        <td>
-                          <span style="padding: 10px;">Campus Santiago, Aveiro </span>
-                        </td>
-                      </tr>
+                      <thead>
+                        <tr>
+                          <th>Email</th>
+                          <th>Phone</th>
+                          <th>Address</th>
+                        </tr>
+                      </thead>
+                      <tbody id="contacts"> </tbody>
                     </table>
                   </div>
                 </div>
@@ -84,6 +65,7 @@ export default class extends Abstractview{
             </section>
   
         </section>  
+
         `;
     }
 }
