@@ -1,5 +1,7 @@
+import About from "./views/About.js";
 import Bali from "./views/Bali.js";
 import Booking from "./views/Booking.js";
+import Contact from "./views/Contact.js";
 import Dubai from "./views/Dubai.js";
 import Greece from "./views/Greece.js";
 import Index from "./views/Index.js";
@@ -29,6 +31,8 @@ const router = async () => {
        { path: "/bookingny.html", view: Newyork},
        { path: "/bookingparis.html", view: Paris},
        { path: "/bookingrome.html", view: Rome},
+       { path: "/about.html", view: About},
+       { path: "/contact.html", view: Contact},
     ];
 
     const potentialMatches = routes.map(route => {
